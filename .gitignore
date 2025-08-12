@@ -1,0 +1,13 @@
+# Ignore trufflehog result folders (can be large and generated)
+trufflehog-results-*/
+
+# Ignore JSON reports
+*.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor backups
+*~
+*.swp
